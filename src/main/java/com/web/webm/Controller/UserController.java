@@ -46,7 +46,7 @@ public class UserController {
     }
     
     /**
-     * GET
+     * GET 1
      *
      * @return
      */
