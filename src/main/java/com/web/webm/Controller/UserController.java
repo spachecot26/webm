@@ -33,7 +33,7 @@ public class UserController {
     @Autowired
     private UserService service;
 
-    @GetMapping("/{email}")
+    @GetMapping("/emailexist/{email}")
     public boolean getemail(@PathVariable("email") String email) {
         List<User> usuarios = service.getAll();
         return service.findEmail(usuarios, email);
