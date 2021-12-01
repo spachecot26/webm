@@ -6,11 +6,11 @@
 package com.web.webm.Repository.Crud;
 
 import com.web.webm.entities.Laptop;
-import org.springframework.data.mongodb.repository.MongoRepository;
+import org.springframework.data.repository.CrudRepository;
 
 /**
  *
  * @author pc
  */
-public interface LaptopCrudRepository extends MongoRepository<Laptop,Integer>{
+public interface LaptopCrudRepository extends CrudRepository<Laptop,Integer>{
 }
