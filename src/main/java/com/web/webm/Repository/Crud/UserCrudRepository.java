@@ -7,11 +7,11 @@ package com.web.webm.Repository.Crud;
 
 
 import com.web.webm.entities.User;
-import org.springframework.data.repository.CrudRepository;
+import org.springframework.data.mongodb.repository.MongoRepository;
 
 /**
  *
  * @author pc
  */
-public interface UserCrudRepository extends CrudRepository<User,Integer>{
+public interface UserCrudRepository extends MongoRepository<User,Integer>{
 }
