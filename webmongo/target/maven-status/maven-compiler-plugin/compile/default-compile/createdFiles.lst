@@ -1,0 +1,12 @@
+com\web\webm\Controller\UserController.class
+com\web\webm\Repository\services\LaptopService.class
+com\web\webm\WebmApplication.class
+com\web\webm\entities\Laptop.class
+com\web\webm\entities\User.class
+com\web\webm\Repository\Crud\LaptopCrudRepository.class
+com\web\webm\Repository\UserRepository.class
+com\web\webm\Repository\Crud\UserCrudRepository.class
+com\web\webm\Controller\LaptopController.class
+com\web\webm\Repository\LaptopRepository.class
+com\web\webm\Repository\services\UserService.class
+.netbeans_automatic_build
